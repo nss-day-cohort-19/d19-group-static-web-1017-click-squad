@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+}
+h2 {
+    font-weight: lighter;
+    color: black;
+}
+h3 {
+    font-weight: lighter;
+    color: gray;
+}
+/*Header and Nav Styling*/
+header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+    border-bottom: 2px solid lightgrey;
+}
+header h1 {
+    font-weight: lighter;
+    width: 50%;
+    margin-right: auto;
+    padding-left: 1em;
+}
+#header-nav {
+    display: flex;
+    align-items: flex-end;
+}
+#header-nav a {
+    padding: .25em;
+    color:#9b26a5;
+    text-decoration: none;
+}
+#header-nav a:hover {
+    box-shadow: 1px 1px 1px black;
+}
+.current-link {
+    background-color: lightgray;
+    color: white;
+}
+/*Main Aside stying*/
+#main-content {
+    display: flex;
+}
+main {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+aside {
+    padding-right: 1em;
+}
+aside div{
+    padding-bottom: 2em;
+}
+aside div img {
+    border-radius: 50%;
+}
+aside h3 {
+    text-align: center;
+}
+/*Footer and Copyright*/
+footer {
+    background-color: black;
+    color: white;
+    flex-direction: column;
+}
+#footer-nav {
+    display: flex;
+    justify-content: center;
+}
+#footer-nav a{
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+#footer-nav a:hover {
+    color: #9b26a5;
+}
+#copyright {
+    text-align:center;
+    font-weight: lighter;
+}
