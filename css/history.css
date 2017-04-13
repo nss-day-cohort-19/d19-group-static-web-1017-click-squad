@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+}
+h2 {
+    font-weight: lighter;
+    color: black;
+}
+h3 {
+    font-weight: lighter;
+    color: grey;
+}
+/*HEADER AND NAV STYLING*/
+header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+    border-bottom: 2px solid lightgrey;
+}
+header h1 {
+    font-weight: lighter;
+    width: 50%;
+    margin-right: auto;
+    padding-left: 1em;
+}
+#header-nav {
+    display: flex;
+    align-items: flex-end;
+}
+#header-nav a {
+    padding: .25em;
+    color: #9b26a5;
+    text-decoration: none;
+}
+#header-nav a:hover {
+    box-shadow: 1px 1px 1px black;
+}
+.current-link {
+    background-color: lightgrey;
+    color: white;
+    /*border-radius: 40%;*/
+}
+/*MAIN AND ASIDE STYLING*/
+#page-title {
+    padding-left: 15%;
+}
+#main-content {
+    display: flex;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+aside {
+    padding-right: 1em;
+    width: 30%;
+}
+aside div {
+    padding-bottom: 2em;
+}
+aside div img {
+    border-radius: 50%;
+    width: 100%
+}
+aside h3 {
+    text-align: center;
+}
+/*FOOTER AND COPYRIGHT*/
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#footer-nav {
+    display: flex;
+    justify-content: center;
+}
+#footer-nav a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+#footer-nav a:hover {
+    color: #9b26a5;
+}
+#copyright {
+    text-align: center;
+    font-weight: lighter;
+}
+/*HISTORY SPECIFIC CSS*/
+#history-main-content {
+    display: flex;
+    flex-direction: column;
+}
+#history-main-content section {
+    display: flex;
+    justify-content: center;
+    padding: .5em 3em;
+}
+#history-pic {
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+/*CARDS STYLING*/
+main div {
+    width: 25%;
+    padding: 1em;
+}
+.card-header {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.card-container h3 {
+    margin: 0;
+}
+.card-img {
+    width: 100%;
+    border: 3px solid grey;
+}
+
