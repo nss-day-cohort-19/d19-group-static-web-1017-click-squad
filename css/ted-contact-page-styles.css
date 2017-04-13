@@ -71,6 +71,11 @@ footer {
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
 }
 #footer-nav {
     display: flex;
