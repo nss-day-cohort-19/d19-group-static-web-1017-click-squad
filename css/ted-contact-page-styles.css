@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    margin: 0;
 }
 h2 {
     font-weight: lighter;
@@ -46,6 +47,7 @@ header h1 {
 }
 #main-content {
     display: flex;
+    justify-content: center;
 }
 main {
     width: 80%;
@@ -88,15 +90,11 @@ footer {
     font-weight: lighter;
 }
 /*Contact page styling*/
-.container{
-    max-width:400px;
-    width:100%;
-    /*margin:0 auto;*/
-    position: flex
-}
+
+
 #map {
-   width: 60%;
-   height: 300px;
+   width: 100%;
+   height: 400px;
    background-color: grey;
    /*margin: 0 auto 0 auto;*/
    position: flex;
@@ -106,7 +104,24 @@ footer {
     /*max-width: 400px
     margin: 0 auto 0 auto;*/
 }
-
+#container {
+    display:flex;
+    justify-content: space-around;
+}
+#col1 {
+    width: 45%;
+    margin-bottom: 2em;
+}
+#col2 {
+    width: 45%;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+#address{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
 
 
 
