@@ -16,32 +16,8 @@
                     <a href="contact.html" title="Contact" class="current-link">Contact</a>
                 </nav>
         </header>
-        <div id="main-content">
-            <div id="address">
-                <h3>Come visit us!</h3><br>
-                <p>403 Gallatin Ave #3<br>
-                    Nashville, TN 37206<br>
-                    ph: (615) 228-0060</p>
-            </div><br>
-            <div id="map"></div>
-                <script>
-                  function initMap() {
-                    var uluru = {lat: 36.1809574, lng: -86.7513915};
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                      zoom: 8,
-                      center: uluru
-                    });
-                    var marker = new google.maps.Marker({
-                      position: uluru,
-                      map: map
-                    });
-                  }
-                </script>
-                <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgU4G1nFCuIkDtBXv-ysn7q2-qU8wzHyk&callback=initMap">
-                </script>
-            </div>
-            <div class="container">
+        <div id="container">
+            <div id="col1">
                 <h3>Give us a shout!</h3>
                 <form action="send-email.php" method="post">
                     First Name:
@@ -59,6 +35,33 @@
                     <label><input type="submit" value="Shout it at us!">Shout it at us!</label>
                 </form>
             </div><br>
+            <div id="col2">
+                <div id="address">
+                    <h3>Come visit us!</h3>
+                    <p>403 Gallatin Ave #3<br>
+                        Nashville, TN 37206<br>
+                        ph: (615) 228-0060</p>
+                </div><br>
+                <div id="map"></div>
+                    <script>
+                      function initMap() {
+                        var uluru = {lat: 36.1809574, lng: -86.7513915};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                          zoom: 8,
+                          center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                          position: uluru,
+                          map: map
+                        });
+                      }
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgU4G1nFCuIkDtBXv-ysn7q2-qU8wzHyk&callback=initMap">
+                    </script>
+                </div>
+            </div>
+
         </div>
         <footer>
             <nav id="footer-nav">
