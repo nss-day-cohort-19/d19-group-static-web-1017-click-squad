@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    margin: 0;
 }
 h2 {
     font-weight: lighter;
@@ -70,6 +71,10 @@ footer {
     color: white;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
 }
 #footer-nav {
     display: flex;
@@ -86,4 +91,29 @@ footer {
 #copyright {
     text-align: center;
     font-weight: lighter;
+}
+
+/*HOME PAGE SPECIFIC CSS*/
+
+.main {
+    flex: 1;
+}
+#content{
+    margin-left: 10px;
+}
+figure {
+    margin-top: 20px;
+}
+figure > img {
+    width: 35vw;
+    margin-left: 30.5vw;
+}
+figcaption{
+    font-size: 10px;
+    font-family: italic;
+    color: grey;
+    text-align: center;
+}
+.main {
+    margin: 30px 0;
 }
