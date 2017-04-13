@@ -4,8 +4,8 @@ var paints = [
    {name:"Ganja Green", color:"#267026 ", description:"Elevate your senses with this bold hue inspired by nature. (consider pairing with Swisher Brown)", price:"10.17", url:"http://www.colorhexa.com/267026.png"},
    {name:"Dirty Fanta", color:"#ff9f23 ", description:" Orange you glad I didn't say banana?? That was a joke. But this color is anything but. Designed to mimic the effects of Purrple Drank, but for those more citrus inclined", price:"10.17", url:"http://www.colorhexa.com/ff9f23.png"},
    {name:"Swisher Brown", color:"#603a07 ", description:"A staple in any modern home, this is a classic color designed to complement anything. Pairs especially well with Ganja Green", price:"10.17", url:"http://www.colorhexa.com/603a07.png"},
-   {name:"Whats Bracking Blood Red", color:"#ce3737 ", description:"Wuss brackin blood?? Never get caught lackin' with this bold shade of red", price:"10.17", url:"http://www.colorhexa.com/ce3737.png"},
-   {name:"Cripwalk Blue", color:"#4c50c4 ", description:"Aye, Aye, cuz! Put a little pep in your step and really make a statement with this chilling hue", price:"10.17", url:"http://www.colorhexa.com/4c50c4.png"},
+   {name:"Bracking Blood Red", color:"#ce3737 ", description:"Wuss brackin blood?? Never get caught lackin' with this bold shade of red", price:"10.17", url:"http://www.colorhexa.com/ce3737.png"},
+   {name:"JavaCrip Blue", color:"#4c50c4 ", description:"Aye, Aye, cuz! Put a little pep in your step and really make a statement with this chilling hue", price:"10.17", url:"http://www.colorhexa.com/4c50c4.png"},
    {name:"Gold Grill", color:"#e8c135 ", description:"This is for those that _really_ want to make a statement.The ballers. The shot callers. Go big or go home!", price:"10.17", url:"http://www.colorhexa.com/e8c135.png"},
    {name:"Straw-BRR-y", color:"#ff6b7c ", description:"Sweet, yet cool. A summertime favorite perfect for exterior furniture", price:"10.17", url:"http://www.colorhexa.com/ff6b7c.png"}
 ];
